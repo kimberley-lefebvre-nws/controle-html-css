@@ -37,5 +37,12 @@
 
   /* Fonts */
   --font-family: "inter", sans-serif;
+
+  /* Fonts size */
+}
+
+body {
   font-family: var(--font-family);
+  color: #263238;
+  background-color: #ffffff;
 }
