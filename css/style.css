@@ -9,31 +9,9 @@
   --color-l-gray: #89939e;
   --color-gray: #717171;
   --color-d-gray: #4d4d4d;
-  --color-black: #263238;
-
-  /* Primary */
   --color-primary: #4caf4f;
   --color-secondary: #263238;
-  --color-info: #2194f3;
-
-  /* Shade */
-  --color-shade1: #43a046;
-  --color-shade2: #388e3b;
-  --color-shade3: #237d31;
-  --color-shade4: #1b5e1f;
-  --color-shade5: #103e13;
-
-  /* Tint */
-  --color-tint1: #66bb69;
-  --color-tint2: #81c784;
-  --color-tint3: #a5d6a7;
-  --color-tint4: #c8e6c9;
-  --color-tint5: #e8f5e9;
-
-  /* Action */
-  --color-warning: #fbc02d;
-  --color-error: #e53835;
-  --color-success: #2e7d31;
+  /* Colors End */
 
   /* Fonts */
   --font-family: "inter", sans-serif;
@@ -43,6 +21,19 @@
 
 body {
   font-family: var(--font-family);
-  color: #263238;
-  background-color: #ffffff;
+  color: var(--color-secondary);
+  background-color: var(--color-white);
+}
+
+/* Footer */
+.footer-company {
+  background-color: var(--color-secondary);
+}
+
+.footer-company-info {
+  color: var(--color-silver);
+}
+
+.footer-copyright {
+  display: flex;
 }
