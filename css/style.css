@@ -34,7 +34,35 @@ body {
   background-color: var(--color-white);
 }
 
+button {
+  background-color: var(--color-primary);
+  border: 0;
+  border-radius: 4px;
+  color: var(--color-white);
+  padding: 14px 32px;
+  font-size: var(--font-size-small);
+}
+
+/* ======================================== */
+
 /* Footer */
+
+.footer-section {
+}
+
+.footer-demo-container {
+}
+
+.footer-demo {
+}
+
+.footer-demo-title {
+}
+
+.footer-demo-button {
+}
+
+/* ============================================= */
 
 .footer-company {
   background-color: var(--color-secondary);
