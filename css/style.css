@@ -17,6 +17,15 @@
   --font-family: "inter", sans-serif;
 
   /* Fonts size */
+  --font-size-xl: 4rem;
+  --font-size-large: 2.25rem;
+  --font-size-medium: 1.75rem;
+  --font-size-small: 1rem;
+  --font-size-smaller: 0.875rem;
+
+  /* Font weight */
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }
 
 body {
@@ -26,14 +35,21 @@ body {
 }
 
 /* Footer */
+
 .footer-company {
   background-color: var(--color-secondary);
+  height: 148px;
+  display: flex;
 }
 
 .footer-company-info {
   color: var(--color-silver);
+  font-size: var(--font-size-smaller);
+  margin: auto;
 }
 
 .footer-copyright {
   display: flex;
 }
+
+/* Footer End */
