@@ -26,6 +26,12 @@
   /* Font weight */
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+
+  /* Line height */
+  --line-height-title: 76px;
+  --line-height-heading: 44px;
+  --line-height-category: 36px;
+  --line-height-text: 20px;
 }
 
 body {
@@ -43,26 +49,34 @@ button {
   font-size: var(--font-size-small);
 }
 
-/* ======================================== */
+/* ================================================ */
 
 /* Footer */
 
 .footer-section {
-}
-
-.footer-demo-container {
+  height: 554px;
 }
 
 .footer-demo {
+  background-color: var(--color-silver);
+  height: 342px;
+  margin: 0px 74px 32px 74px;
+  text-align: center;
+  padding-top: 32px;
 }
 
 .footer-demo-title {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-title);
+  width: 75%;
+  margin: 0px auto;
 }
 
 .footer-demo-button {
+  margin-top: 32px;
 }
 
-/* ============================================= */
+/* ======================================== */
 
 .footer-company {
   background-color: var(--color-secondary);
