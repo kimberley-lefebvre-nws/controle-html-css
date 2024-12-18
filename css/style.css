@@ -32,6 +32,9 @@
   --line-height-heading: 44px;
   --line-height-category: 36px;
   --line-height-text: 20px;
+
+  /* Text */
+  text-align: center;
 }
 
 /* ================================ */
@@ -120,12 +123,16 @@ header {
 /* Main */
 
 .home-content {
+  margin-top: 0px;
 }
 
 .home-content-hero {
+  background-color: var(--color-silver);
+  display: flex;
 }
 
 .home-hero-container {
+  text-align: left;
 }
 
 .home-hero-text {
@@ -151,6 +158,140 @@ header {
 
 /* ================================ */
 
+.home-content-community {
+}
+
+.home-community-container {
+}
+
+.home-community-title {
+}
+
+.home-community-text {
+}
+
+/* ========== */
+
+.home-community-section {
+  display: flex;
+}
+
+.home-section-membership {
+}
+
+.home-membership-container {
+}
+
+.home-membership-icone {
+}
+
+.home-membership-title {
+}
+
+.home-membership-text {
+}
+
+.home-membership-phrase {
+}
+
+/* ========== */
+
+.home-section-associations {
+}
+
+.home-association-container {
+}
+
+.home-association-icone {
+}
+
+.home-association-title {
+}
+
+.home-associations-text {
+}
+
+.home-association-phrase {
+}
+
+/* ========== */
+
+.home-section-clubs {
+}
+
+.home-clubs-container {
+}
+
+.home-clubs-icone {
+}
+
+.home-clubs-title {
+}
+
+.home-clubs-text {
+}
+
+.home-clubs-phrase {
+}
+
+/* ================================ */
+
+.home-body {
+}
+
+.home-body-unlock {
+}
+
+.home-unlock-container {
+}
+
+.home-unlock-image {
+}
+
+.home-unlock-btn-text {
+}
+
+.home-unlock-text {
+}
+
+.home-unlock-title {
+}
+
+.home-unlock-catch-phrase {
+}
+
+.home-unlock-button {
+}
+
+.unlock-button-learn-more {
+}
+
+/* ========== */
+
+.home-body-calender {
+}
+
+.home-calender-btn-text {
+}
+
+.home-calender-text {
+}
+
+.home-calender-title {
+}
+
+.home-calender-catch-phrase {
+}
+
+.home-calender-button {
+}
+
+.calender-button-learn-more {
+}
+
+.home-calender-image {
+}
+
 /* Main End */
 
 /* ================================================ */
@@ -165,7 +306,6 @@ header {
   background-color: var(--color-silver);
   height: 342px;
   margin: 0px 74px 32px 74px;
-  text-align: center;
   padding-top: 32px;
 }
 
