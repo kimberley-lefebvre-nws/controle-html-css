@@ -32,9 +32,6 @@
   --line-height-heading: 44px;
   --line-height-category: 36px;
   --line-height-text: 20px;
-
-  /* Text */
-  text-align: center;
 }
 
 /* ================================ */
@@ -309,12 +306,13 @@ header {
   height: 342px;
   margin: 0px 74px 32px 74px;
   padding-top: 32px;
+  text-align: center;
 }
 
 .footer-demo-title {
   font-size: var(--font-size-xl);
   line-height: var(--line-height-title);
-  width: 75%;
+  width: 50%;
   margin: 0px auto;
 }
 
