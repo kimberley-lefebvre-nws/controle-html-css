@@ -64,15 +64,18 @@ header {
 }
 
 .header-logo {
+  margin: 30px 145px 30px 105px;
 }
 
 /* ================================ */
 
 .header-nav {
+  margin: 30px 145px;
 }
 
 .header-nav ul {
   display: flex;
+  gap: 50px;
 }
 
 .header-nav li {
@@ -89,6 +92,7 @@ header {
 
 .header-login {
   display: flex;
+  margin: 22px 121.51px 22px 145px;
   padding: 10px 20px;
   gap: 14px;
 }
