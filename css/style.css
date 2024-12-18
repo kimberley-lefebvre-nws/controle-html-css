@@ -90,6 +90,7 @@ header {
 .header-login {
   display: flex;
   padding: 10px 20px;
+  gap: 14px;
 }
 
 .header-login-login-button {
