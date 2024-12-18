@@ -84,6 +84,7 @@ header {
 
 .header-login {
   display: flex;
+  padding: 10px 20px;
 }
 
 .header-login-login-button {
