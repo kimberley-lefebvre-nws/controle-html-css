@@ -243,6 +243,7 @@ header {
 }
 
 .home-unlock-container {
+  display: flex;
 }
 
 .home-unlock-image {
@@ -269,6 +270,7 @@ header {
 /* ========== */
 
 .home-body-calender {
+  display: flex;
 }
 
 .home-calender-btn-text {
