@@ -31,6 +31,7 @@
   --line-height-title: 76px;
   --line-height-heading: 44px;
   --line-height-category: 36px;
+  --line-height-sub-title: 24px;
   --line-height-text: 20px;
 }
 
@@ -134,9 +135,12 @@ header {
 .home-hero-container {
   text-align: left;
   margin: 161.5px 104px 161.5px 144px;
+  gap: 32px;
 }
 
 .home-hero-text {
+  width: 658px;
+  height: 276px;
 }
 
 .home-hero-title {
@@ -150,6 +154,8 @@ header {
 }
 
 .home-hero-catch-phrase {
+  color: var(--color-gray);
+  line-height: var(--line-height-sub-title);
 }
 
 .home-hero-button {
