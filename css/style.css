@@ -2,7 +2,6 @@
 
 :root {
   /* Colors */
-  /* Neutral */
   --color-white: #ffffff;
   --color-silver: #f5f7fa;
   --color-grey-blue: #abbed1;
@@ -34,6 +33,8 @@
   --line-height-category: 36px;
   --line-height-text: 20px;
 }
+
+/* ================================ */
 
 body {
   font-family: var(--font-family);
@@ -81,6 +82,7 @@ header {
 .header-nav a {
   color: var(--color-l-black);
   text-decoration: none;
+  font-size: var(--font-size-small);
 }
 
 /* ================================ */
@@ -96,12 +98,14 @@ header {
 .header-login-button {
   background-color: var(--color-silver);
   color: var(--color-primary);
+  font-size: var(--font-size-smaller);
 }
 
 .header-login-sign-up-button {
 }
 
 .header-sign-up-button {
+  font-size: var(--font-size-smaller);
 }
 
 /* Header End */
@@ -114,7 +118,6 @@ header {
 }
 
 .home-content-hero {
-  background-color: var(--color-silver);
 }
 
 .home-hero-container {
