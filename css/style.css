@@ -3,12 +3,13 @@
 :root {
   /* Colors */
   /* Neutral */
-  --color-silver: #f5f7fa;
   --color-white: #ffffff;
+  --color-silver: #f5f7fa;
   --color-grey-blue: #abbed1;
   --color-l-gray: #89939e;
   --color-gray: #717171;
   --color-d-gray: #4d4d4d;
+  --color-l-black: #18191f;
   --color-primary: #4caf4f;
   --color-secondary: #263238;
   /* Colors End */
@@ -55,7 +56,7 @@ button {
 
 header {
   height: 84px;
-  background-color: /*var(--color-silver)*/ gold;
+  background-color: var(--color-silver);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,9 +75,11 @@ header {
 }
 
 .header-nav li {
+  list-style: none;
 }
 
 .header-nav a {
+  color: var(--color-l-black);
   text-decoration: none;
 }
 
@@ -106,6 +109,39 @@ header {
 /* ================================================ */
 
 /* Main */
+
+.home-content {
+}
+
+.home-content-hero {
+  background-color: var(--color-silver);
+}
+
+.home-hero-container {
+}
+
+.home-hero-text {
+}
+
+.home-hero-title {
+}
+
+.home-hero-title-color {
+}
+
+.home-hero-catch-phrase {
+}
+
+.home-hero-button {
+}
+
+.hero-button-register {
+}
+
+.home-content-hero-illustration {
+}
+
+/* ================================ */
 
 /* Main End */
 
