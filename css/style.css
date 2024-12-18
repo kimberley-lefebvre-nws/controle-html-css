@@ -51,6 +51,65 @@ button {
 
 /* ================================================ */
 
+/* Header */
+
+header {
+  height: 84px;
+  background-color: /*var(--color-silver)*/ gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+}
+
+/* ================================ */
+
+.header-nav {
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+/* ================================ */
+
+.header-login {
+  display: flex;
+}
+
+.header-login-login-button {
+}
+
+.header-login-button {
+  background-color: var(--color-silver);
+  color: var(--color-primary);
+}
+
+.header-login-sign-up-button {
+}
+
+.header-sign-up-button {
+}
+
+/* Header End */
+
+/* ================================================ */
+
+/* Main */
+
+/* Main End */
+
+/* ================================================ */
+
 /* Footer */
 
 .footer-section {
@@ -76,7 +135,7 @@ button {
   margin-top: 32px;
 }
 
-/* ======================================== */
+/* ================================ */
 
 .footer-company {
   background-color: var(--color-secondary);
