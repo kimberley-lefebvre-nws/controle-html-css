@@ -207,7 +207,6 @@ header {
 .home-membership-container {
   width: 267px;
   height: 144px;
-  margin: 16px auto;
 }
 
 .home-membership-icone {
@@ -215,15 +214,18 @@ header {
 
 .home-membership-title {
   font-size: var(--font-size-medium);
+  margin: 16px;
 }
 
 .home-membership-text {
   color: var(--color-gray);
   font-size: var(--font-size-smaller);
+  width: 251px;
+  text-align: center;
 }
 
 .home-membership-phrase {
-  width: 251px;
+  margin: 20px auto;
 }
 
 /* ========== */
