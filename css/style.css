@@ -198,13 +198,12 @@ header {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding: 0px 144px;
   margin: 16px auto 42px auto;
 }
 
 .home-section-membership {
   width: 299px;
-  margin: 10px 127.5px 10px 144px;
+  margin: 10px auto 10px 144px;
 }
 
 .home-membership-container {
@@ -264,7 +263,7 @@ header {
 
 .home-section-clubs {
   width: 299px;
-  margin: 10px 144px 10px 127.5px;
+  margin: 10px 144px 10px auto;
 }
 
 .home-clubs-container {
@@ -296,6 +295,7 @@ header {
 
 .home-body-unlock {
   display: flex;
+  margin-top: 42px;
 }
 
 .home-unlock-container {
@@ -342,12 +342,21 @@ header {
 
 .home-body-calender {
   display: flex;
+  margin-top: 48px;
+  margin-bottom: 42px;
+}
+
+.home-calender-container {
+  display: flex;
+  margin: 0px auto;
 }
 
 .home-calender-btn-text {
+  width: 661px;
 }
 
 .home-calender-text {
+  width: 601px;
 }
 
 .home-calender-title {
@@ -365,6 +374,7 @@ header {
 }
 
 .home-calender-button {
+  margin-top: 32px;
 }
 
 .calender-button-learn-more {
