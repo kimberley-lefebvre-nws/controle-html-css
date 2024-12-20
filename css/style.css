@@ -11,6 +11,7 @@
   --color-l-black: #18191f;
   --color-primary: #4caf4f;
   --color-secondary: #263238;
+  --color-shadow: #abbed133;
   /* Colors End */
 
   /* Fonts */
@@ -221,6 +222,7 @@ header {
 .home-section-membership {
   width: 299px;
   margin: 10px auto 10px 144px;
+  box-shadow: 2px 0px 2px var(--color-shadow), -2px 0px 2px var(--color-shadow);
 }
 
 .home-membership-container {
@@ -252,6 +254,7 @@ header {
 .home-section-associations {
   width: 299px;
   margin: auto 127.5px;
+  box-shadow: 2px 0px 2px var(--color-shadow), -2px 0px 2px var(--color-shadow);
 }
 
 .home-association-container {
@@ -281,6 +284,7 @@ header {
 .home-section-clubs {
   width: 299px;
   margin: 10px 144px 10px auto;
+  box-shadow: 2px 0px 2px var(--color-shadow), -2px 0px 2px var(--color-shadow);
 }
 
 .home-clubs-container {
