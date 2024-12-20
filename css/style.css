@@ -38,6 +38,23 @@
 
 /* ================================ */
 
+/* Dark Mode */
+.dark-mode {
+  /* Colors */
+  --color-white: #263238;
+  --color-silver: #18191f;
+  --color-grey-blue: #4d4d4d;
+  --color-l-gray: #717171;
+  --color-gray: #89939e;
+  --color-d-gray: #abbed1;
+  --color-l-black: #f5f7fa;
+  --color-primary: #4caf4f;
+  --color-secondary: #ffffff;
+  /* Colors End */
+}
+
+/* ================================ */
+
 body {
   font-family: var(--font-family);
   color: var(--color-secondary);
