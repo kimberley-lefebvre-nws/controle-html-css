@@ -25,6 +25,7 @@
 
   /* Font weight */
   --font-weight-normal: 400;
+  --font-weight-intermediate: 600;
   --font-weight-bold: 700;
 
   /* Line height */
@@ -294,28 +295,44 @@ header {
 }
 
 .home-body-unlock {
+  display: flex;
 }
 
 .home-unlock-container {
   display: flex;
+  margin: 0px auto;
 }
 
 .home-unlock-image {
 }
 
 .home-unlock-btn-text {
+  width: 661px;
 }
 
 .home-unlock-text {
+  width: 601px;
 }
 
 .home-unlock-title {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-intermediate);
+  line-height: var(--line-height-heading);
+  color: var(--color-d-gray);
+  padding: 0px 20px 16px 0px;
+  margin-bottom: 0px;
 }
 
 .home-unlock-catch-phrase {
+  font-size: var(--font-size-smaller);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-text);
+  color: var(--color-gray);
+  padding: 0px 20px 0px 0px;
 }
 
 .home-unlock-button {
+  margin-top: 32px;
 }
 
 .unlock-button-learn-more {
@@ -334,9 +351,17 @@ header {
 }
 
 .home-calender-title {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-intermediate);
+  line-height: var(--line-height-heading);
+  color: var(--color-d-gray);
 }
 
 .home-calender-catch-phrase {
+  font-size: var(--font-size-smaller);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-text);
+  color: var(--color-gray);
 }
 
 .home-calender-button {
