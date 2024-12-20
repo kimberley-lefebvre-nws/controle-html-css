@@ -198,10 +198,12 @@ header {
   text-align: center;
   justify-content: space-between;
   padding: 0px 144px;
+  margin: 16px auto 42px auto;
 }
 
 .home-section-membership {
   width: 299px;
+  margin: 10px 127.5px 10px 144px;
 }
 
 .home-membership-container {
@@ -232,6 +234,7 @@ header {
 
 .home-section-associations {
   width: 299px;
+  margin: auto 127.5px;
 }
 
 .home-association-container {
@@ -260,6 +263,7 @@ header {
 
 .home-section-clubs {
   width: 299px;
+  margin: 10px 144px 10px 127.5px;
 }
 
 .home-clubs-container {
