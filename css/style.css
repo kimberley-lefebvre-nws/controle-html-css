@@ -117,16 +117,10 @@ header {
   gap: 14px;
 }
 
-.header-login-login-button {
-}
-
 .header-login-button {
   background-color: var(--color-silver);
   color: var(--color-primary);
   font-size: var(--font-size-smaller);
-}
-
-.header-login-sign-up-button {
 }
 
 .header-sign-up-button {
@@ -177,12 +171,6 @@ header {
   line-height: var(--line-height-sub-title);
 }
 
-.home-hero-button {
-}
-
-.hero-button-register {
-}
-
 .home-content-hero-illustration {
   margin: 96px 144px 96px 104px;
 }
@@ -230,9 +218,6 @@ header {
   height: 144px;
 }
 
-.home-membership-icone {
-}
-
 .home-membership-title {
   font-size: var(--font-size-medium);
   margin: 16px;
@@ -259,9 +244,6 @@ header {
 
 .home-association-container {
   width: 267px;
-}
-
-.home-association-icone {
 }
 
 .home-association-title {
@@ -291,9 +273,6 @@ header {
   width: 267px;
 }
 
-.home-clubs-icone {
-}
-
 .home-clubs-title {
   font-size: var(--font-size-medium);
   width: 231px;
@@ -311,9 +290,6 @@ header {
 
 /* ================================ */
 
-.home-body {
-}
-
 .home-body-unlock {
   display: flex;
   margin-top: 42px;
@@ -322,9 +298,6 @@ header {
 .home-unlock-container {
   display: flex;
   margin: 0px auto;
-}
-
-.home-unlock-image {
 }
 
 .home-unlock-btn-text {
@@ -354,9 +327,6 @@ header {
 
 .home-unlock-button {
   margin-top: 32px;
-}
-
-.unlock-button-learn-more {
 }
 
 /* ========== */
@@ -396,12 +366,6 @@ header {
 
 .home-calender-button {
   margin-top: 32px;
-}
-
-.calender-button-learn-more {
-}
-
-.home-calender-image {
 }
 
 /* Main End */
